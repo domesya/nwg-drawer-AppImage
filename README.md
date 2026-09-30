@@ -1,19 +1,19 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# nwg-drawer-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/nwg-drawer-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/nwg-drawer-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/nwg-drawer-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/nwg-drawer-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/nwg-drawer-AppImage)](https://github.com/pkgforge-dev/nwg-drawer-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/nwg-piotr/nwg-drawer/assets/20579136/1a7578e8-5332-4e4c-bdce-9b9bf875c0e7" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/nwg-drawer-AppImage/releases/latest) | [Click here](https://github.com/nwg-piotr/nwg-drawer) |
 
 </div>
 
