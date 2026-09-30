@@ -3,16 +3,19 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q PACKAGENAME | awk '{print $2; exit}') # example command to get version of application here
+VERSION=$(pacman -Q nwg-drawer | awk '{print $2; exit}') # example command to get version of application here
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=PATH_OR_URL_TO_ICON
-export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
+export ICON=https://github.com/nwg-piotr/nwg-drawer/assets/20579136/1a7578e8-5332-4e4c-bdce-9b9bf875c0e7
+export DESKTOP=DUMMY
+export MAIN_BIN=nwg-drawer
+export URUNTIME_PRELOAD=1
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun \
+  /usr/bin/nwg-drawer
 
 # Additional changes can be done in between here
 
